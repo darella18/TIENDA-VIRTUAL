@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #e2e8f0;
+  color: #0f172a;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+input {
+  transition: 0.3s;
+}
+
+input:focus {
+  transform: scale(1.01);
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
