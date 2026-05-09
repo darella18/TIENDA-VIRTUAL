@@ -1,0 +1,195 @@
+.cart-page {
+  min-height: 100vh;
+
+  padding: 40px;
+
+  background: #f1f5f9;
+}
+
+.cart-page h1 {
+  margin-bottom: 40px;
+
+  text-align: center;
+
+  color: #0f172a;
+}
+
+.empty-cart {
+  background: white;
+
+  padding: 60px;
+
+  border-radius: 20px;
+
+  text-align: center;
+
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.cart-items {
+  display: flex;
+  flex-direction: column;
+
+  gap: 20px;
+}
+
+.cart-card {
+  background: white;
+
+  border-radius: 20px;
+
+  padding: 20px;
+
+  display: flex;
+  align-items: center;
+
+  gap: 25px;
+
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.cart-card img {
+  width: 140px;
+  height: 140px;
+
+  object-fit: cover;
+
+  border-radius: 15px;
+}
+
+.cart-info {
+  flex: 1;
+}
+
+.cart-info h3 {
+  color: #0f172a;
+
+  margin-bottom: 10px;
+}
+
+.cart-info p {
+  color: #16a34a;
+
+  font-size: 18px;
+  font-weight: bold;
+
+  margin-bottom: 15px;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+
+  gap: 15px;
+
+  margin-bottom: 15px;
+}
+
+.quantity-controls button {
+  width: 35px;
+  height: 35px;
+
+  border: none;
+
+  border-radius: 8px;
+
+  background: #38bdf8;
+
+  color: white;
+
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.quantity-controls span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.remove-btn {
+  background: #ef4444;
+
+  color: white;
+
+  border: none;
+
+  padding: 12px 18px;
+
+  border-radius: 10px;
+
+  font-weight: bold;
+}
+
+.cart-summary {
+  margin-top: 40px;
+
+  background: white;
+
+  padding: 30px;
+
+  border-radius: 20px;
+
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+
+  text-align: center;
+}
+
+.cart-summary h2 {
+  margin-bottom: 25px;
+
+  color: #0f172a;
+}
+
+.buy-btn,
+.clear-btn {
+  padding: 14px 24px;
+
+  border: none;
+
+  border-radius: 10px;
+
+  font-size: 16px;
+  font-weight: bold;
+
+  margin: 10px;
+
+  color: white;
+}
+
+.buy-btn {
+  background: #22c55e;
+}
+
+.clear-btn {
+  background: #ef4444;
+}
+
+@media (max-width: 768px) {
+
+  .cart-page {
+    padding: 20px;
+  }
+
+  .cart-card {
+    flex-direction: column;
+
+    text-align: center;
+  }
+
+}
+
+.buy-btn:hover {
+  background: #16a34a;
+}
+
+.clear-btn:hover {
+  background: #dc2626;
+}
+
+.remove-btn:hover {
+  background: #dc2626;
+}
+
+.quantity-controls button:hover {
+  background: #0284c7;
+}

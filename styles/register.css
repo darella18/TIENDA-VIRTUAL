@@ -1,0 +1,99 @@
+.register-container {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background:
+    linear-gradient(
+      rgba(15,23,42,0.85),
+      rgba(15,23,42,0.85)
+    ),
+    url("https://images.unsplash.com/photo-1498050108023-c5249f4df085");
+
+  background-size: cover;
+  background-position: center;
+}
+
+.register-card {
+  width: 400px;
+
+  background: rgba(255,255,255,0.1);
+
+  backdrop-filter: blur(10px);
+
+  padding: 40px;
+
+  border-radius: 20px;
+
+  color: white;
+
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.register-card h1 {
+  text-align: center;
+
+  margin-bottom: 30px;
+
+  color: white;
+}
+
+.register-input {
+  width: 100%;
+
+  padding: 14px;
+
+  margin-bottom: 20px;
+
+  border: none;
+
+  border-radius: 10px;
+
+  outline: none;
+
+  font-size: 16px;
+}
+
+.register-main-btn,
+.back-login-btn {
+  width: 100%;
+
+  padding: 14px;
+
+  border: none;
+
+  border-radius: 10px;
+
+  font-size: 16px;
+  font-weight: bold;
+
+  transition: 0.3s;
+}
+
+.register-main-btn {
+  background: #22c55e;
+
+  color: white;
+
+  margin-bottom: 15px;
+}
+
+.register-main-btn:hover {
+  background: #16a34a;
+}
+
+.back-login-btn {
+  background: #38bdf8;
+
+  color: white;
+}
+
+.back-login-btn:hover {
+  background: #0ea5e9;
+}
+
+.register-card {
+  animation: fadeIn 0.8s ease;
+}
